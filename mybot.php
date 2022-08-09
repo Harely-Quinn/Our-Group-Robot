@@ -38,7 +38,6 @@ function bot($method,$datas=[]){
 
 include "messages.php";
 include "Telegram.php";
-include "random.php";
 
 
 $telegram = new Telegram($token);
